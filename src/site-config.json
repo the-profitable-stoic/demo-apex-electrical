@@ -1,0 +1,532 @@
+{
+  "business": {
+    "name": "Apex Electrical",
+    "phone": "555-ele-r92",
+    "category": "electrical",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "electrical-red-charge",
+      "categoryGroup": "electrical",
+      "name": "Red Charge",
+      "recipeFile": "electrical/red-charge.astro",
+      "colors": {
+        "primary": "#EAB308",
+        "primaryDark": "#A16207",
+        "primaryLight": "#faecc1",
+        "secondary": "#d3a107",
+        "accent": "#1F2937",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#EAB308",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "electrical/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Electrical Services in Dallas",
+      "heroSubline": "Serving DFW homes with expert electrical solutions since 2012. Trusted by thousands for safe, efficient, and lasting repairs.",
+      "aboutTitle": "Your Local Electrical Experts",
+      "aboutText": [
+        "Founded in 2012, Apex Electrical has grown from a small family-owned business into one of Dallas' most trusted electrical contractors. We've worked on everything from historic Oak Cliff homes to sleek Uptown condos.",
+        "Our approach blends old-school craftsmanship with modern safety standards. Every job begins with a thorough inspection and ends with a meticulous cleanup—because your home deserves nothing less.",
+        "We’re proud to support local Little Leagues and the Dallas Arts District. When you hire us, you’re investing in a team that cares deeply about this community."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Availability",
+          "description": "We prioritize emergency calls, especially during North Texas storm season when downed wires and outages strike."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises—just honest quotes that account for Dallas' unique housing challenges like aging wiring in Lake Highlands."
+        },
+        {
+          "title": "DFW-Trained Technicians",
+          "description": "Our team understands local codes for both historic Bishop Arts bungalows and new Frisco developments."
+        },
+        {
+          "title": "100% Satisfaction Guarantee",
+          "description": "If you're not happy, we’ll make it right—no arguments."
+        }
+      ],
+      "ctaHeadline": "Need an electrician today?",
+      "ctaSubline": "Call 555-ELE-R92 for immediate service across Dallas-Fort Worth."
+    },
+    "services": [
+      {
+        "slug": "emergency-electrical-repairs",
+        "name": "Emergency Electrical Repairs",
+        "shortDescription": "24/7 solutions for sparks, outages, and dangerous wiring issues.",
+        "description": "When your lights flicker during a Plano thunderstorm or an outlet stops working in your Preston Hollow home, you need help fast. We arrive within 90 minutes with fully stocked trucks to diagnose and fix:\n\nCommon emergencies include tripped breakers in older McKinney homes, buzzing panels in Arlington ranches, and frayed wires in Dallas’ historic properties. Our team carries specialized tools to handle aluminum wiring common in 1970s builds.\n\nSafety first: We’ll secure the hazard area, explain the problem in plain English, and provide temporary power solutions if needed. Before leaving, we test all nearby circuits to prevent collateral damage.",
+        "process": [
+          "Step 1: Immediate phone assessment to determine risk level",
+          "Step 2: On-site diagnosis with thermal imaging cameras",
+          "Step 3: Repair using materials rated for Texas heat",
+          "Step 4: Post-repair safety inspection"
+        ],
+        "benefits": [
+          "Available during North Texas’ worst storms",
+          "No overtime charges for nights/weekends",
+          "Complimentary whole-home surge protector quote",
+          "Follow-up within 24 hours"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes an electrical emergency?",
+            "answer": "Any situation risking fire or shock—sparking outlets, burning smells, or complete loss of power in Dallas’ summer heat require immediate attention."
+          },
+          {
+            "question": "Do you service older homes with knob-and-tube wiring?",
+            "answer": "Yes, we safely update antique systems in areas like Winnetka Heights, often adding GFCI protection without compromising historic charm."
+          }
+        ]
+      },
+      {
+        "slug": "panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Modernize your home’s power center for safety and capacity.",
+        "description": "Dallas homes built before 1990 often have 60-amp panels that can’t handle modern appliances. We specialize in upgrading to 200-amp service without disrupting your daily life.\n\nIn Frisco’s newer homes, we install smart panels that let you monitor usage via phone. For historic Tudors in East Dallas, we conceal new panels in closets or basements to preserve aesthetics.\n\nThe process includes load calculations specific to Texas summers (when AC units run constantly), NEC-compliant breakers, and whole-home surge protection. We handle all permits for Collin County and Dallas County.",
+        "process": [
+          "Step 1: Evaluate current panel and home energy needs",
+          "Step 2: Obtain necessary city permits",
+          "Step 3: Install new panel with minimal drywall damage",
+          "Step 4: Test all circuits and update your home’s electrical map"
+        ],
+        "benefits": [
+          "Prevents overheating in attics (common in Texas ranch homes)",
+          "Eliminates the need for dangerous double-tapped breakers",
+          "Prepares your home for EV chargers and solar panels",
+          "10-year warranty on labor"
+        ],
+        "faq": [
+          {
+            "question": "How long does a panel upgrade take?",
+            "answer": "Most Dallas homes are completed in 6-8 hours. Historic homes with plaster walls may require extra time for careful retrofitting."
+          },
+          {
+            "question": "Will my power be off during the upgrade?",
+            "answer": "We coordinate with Oncor to minimize downtime, typically keeping outages under 2 hours during the swap."
+          }
+        ]
+      },
+      {
+        "slug": "ceiling-fan-installation",
+        "name": "Ceiling Fan Installation",
+        "shortDescription": "Energy-efficient cooling tailored to your room’s size and style.",
+        "description": "Properly installed ceiling fans can cut AC costs by 40% in Dallas’ scorching summers. We assess your space to recommend optimal blade span (52” for most living rooms, 44” for bedrooms).\n\nFor vaulted ceilings in Plano McMansions, we use extended downrods. In low-ceilinged Oak Lawn condos, we install hugger models. Every fan gets balanced with laser tools to prevent the wobble common in cheap DIY jobs.\n\nWe retrofit existing light fixtures and reinforce boxes to handle fan weight—especially important in 1950s homes where original boxes weren’t designed for modern fixtures.",
+        "process": [
+          "Step 1: Assess ceiling structure and wiring",
+          "Step 2: Install reinforced mounting bracket",
+          "Step 3: Wire fan with remote/hardware per your preference",
+          "Step 4: Balance blades and test all functions"
+        ],
+        "benefits": [
+          "Reduces reliance on overworked AC units",
+          "Includes decorative light kit installation",
+          "Quieter operation than big-box store specials",
+          "Optional smart home integration"
+        ],
+        "faq": [
+          {
+            "question": "Can you install fans on angled ceilings?",
+            "answer": "Yes, we adapt mounts for cathedral ceilings common in Frisco’s newer builds, ensuring proper stability."
+          },
+          {
+            "question": "Do you haul away old fans?",
+            "answer": "We responsibly dispose of old units and can donate working models to Dallas Habitat for Humanity."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-lighting",
+        "name": "Outdoor Lighting",
+        "shortDescription": "Enhance safety and curb appeal with weatherproof illumination.",
+        "description": "Texas’ extreme weather demands durable lighting. We install path lights that withstand 100°F summers and occasional ice storms, using commercial-grade copper wiring to prevent corrosion.\n\nFor Uptown townhomes, we design subtle uplighting to highlight architecture. In sprawling Allen backyards, we create layered lighting zones with motion sensors. All installations include GFCI protection—critical for Dallas’ heavy rains.\n\nPopular projects include pergola string lights in Bishop Arts, security floods for Preston Hollow estates, and low-voltage garden lighting at White Rock Lake homes.",
+        "process": [
+          "Step 1: Nighttime walkthrough to identify dark zones",
+          "Step 2: Select fixtures rated for North Texas UV exposure",
+          "Step 3: Bury wiring 18” deep to avoid lawn equipment damage",
+          "Step 4: Program smart controls (if applicable)"
+        ],
+        "benefits": [
+          "Deters burglars—a concern in Dallas’ growing areas",
+          "Extends outdoor living time during mild Texas evenings",
+          "LED options last 5x longer than incandescent",
+          "No disruptive trenching for low-voltage systems"
+        ],
+        "faq": [
+          {
+            "question": "Can lighting survive Dallas hail storms?",
+            "answer": "We use polycarbonate lenses and aircraft-grade aluminum housings that have withstood 2” hail in field tests."
+          },
+          {
+            "question": "How much does landscape lighting cost?",
+            "answer": "A basic 6-fixture path lighting system starts at $1,200 installed. Larger properties with smart controls average $3,500-5,000."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Generator Installation",
+        "shortDescription": "Keep power flowing during Texas’ frequent outages.",
+        "description": "When DFW’s grid fails during ice storms or summer demand peaks, a standby generator keeps your family safe. We install 10kW-22kW units sized for your home’s essential circuits.\n\nFor McKinney’s historic districts, we conceal generators with custom fencing. In new Frisco developments, we integrate with smart home systems. Every install includes:\n\n- Automatic transfer switch that activates in seconds\n- Natural gas or propane hookups (we coordinate with Atmos Energy)\n- Permitted enclosures meeting Dallas noise ordinances\n- Load testing to simulate outage conditions",
+        "process": [
+          "Step 1: Home energy audit to determine generator size",
+          "Step 2: Obtain permits and utility approvals",
+          "Step 3: Pour concrete pad (if needed)",
+          "Step 4: Install and test under load"
+        ],
+        "benefits": [
+          "Protects perishables and medical equipment",
+          "Maintains AC/heat during extreme weather",
+          "Increases home value (especially in outage-prone areas)",
+          "5-year service included"
+        ],
+        "faq": [
+          {
+            "question": "How loud are standby generators?",
+            "answer": "Our Kohler units operate at 68 dB—quieter than a vacuum—and we position them away from bedrooms per Dallas code."
+          },
+          {
+            "question": "Can I install a generator myself?",
+            "answer": "Texas law requires licensed electricians for permanent installations due to gas line and transfer switch hazards."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Martha R.",
+        "rating": 5,
+        "service": "Emergency electrical repair",
+        "text": "When our Lakewood bungalow’s bathroom outlet started smoking during a storm, Apex had a technician here in 45 minutes. He found corroded wiring from a 1950s DIY job and replaced it with waterproof GFCI outlets—even sealed the exterior penetration where moisture was getting in.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Panel upgrade",
+        "text": "Our 1978 Richardson home kept tripping breakers every summer. Apex upgraded us to 200-amp service and added surge protection. When the next big storm hit, our neighbors lost power for hours while our lights stayed on. Worth every penny.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Ceiling fan installation",
+        "text": "They installed 5 Hunter fans in our new Preston Hollow build—the one in the game room is huge but doesn’t wobble at all. The electrician took time to explain the different speed settings and even programmed the remotes to match our existing smart home system.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Carlos S.",
+        "rating": 5,
+        "service": "Outdoor lighting",
+        "text": "Apex transformed our dark Oak Lawn backyard into an evening oasis. The path lights have survived two Texas hailstorms intact, and the motion-activated floods make my wife feel safer when she comes home late from her hospital shifts.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Generator installation",
+        "text": "After being without power for 3 days during the 2023 ice storm, we had Apex install a 22kW Generac. It kicked on automatically during last month’s outage—ran our whole house including both AC units. The installer’s attention to detail on the gas line connection was impressive.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Darnell W.",
+        "rating": 5,
+        "service": "Whole-house rewiring",
+        "text": "Bought a 1920s craftsman in Winnetka Heights with scary knob-and-tube wiring. Apex’s team rewired the entire house without damaging the original plaster. They even replicated antique push-button switches in the parlour where we wanted to keep the historic look.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Dallas Electrician | Emergency Repairs & Installations",
+        "description": "Licensed electricians serving Dallas-Fort Worth with 24/7 emergency service, panel upgrades, and energy-efficient lighting solutions."
+      },
+      "about": {
+        "title": "About Apex Electrical | Dallas’ Trusted Electricians",
+        "description": "Family-owned electrical contractor serving DFW since 2012—specializing in historic home rewiring and modern smart home integrations."
+      },
+      "services": {
+        "title": "Electrical Services in Dallas | Residential & Commercial",
+        "description": "Expert electrical repairs, generator installations, and lighting design for Dallas homes and businesses."
+      },
+      "contact": {
+        "title": "Contact Dallas’ Top-Rated Electricians",
+        "description": "Schedule same-day electrical service in Dallas, Plano, Frisco, and surrounding areas. Call 555-ELE-R92 for fast response."
+      },
+      "reviews": {
+        "title": "Apex Electrical Reviews | Dallas Homeowner Testimonials",
+        "description": "Read verified reviews from Dallas-area homeowners who trusted Apex Electrical for quality workmanship."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Worth",
+        "slug": "fort-worth-tx",
+        "state": "TX",
+        "content": "Apex Electrical proudly serves the Fort Worth community with expert electrical services tailored to its unique needs. The city's charming Craftsman bungalows near downtown often require specialized electrical upgrades to preserve their historic character while meeting modern demands. Our team is skilled in handling the challenges posed by Fort Worth's hot, humid summers, ensuring your home's electrical systems remain safe and efficient year-round. We also provide comprehensive electrical solutions for newer developments, blending reliability with the latest technology.\n\nFrom panel upgrades to whole-home rewiring, Apex Electrical helps Fort Worth homeowners maintain safe and functional electrical systems. Whether you're restoring a historic property or upgrading a modern home, our licensed electricians deliver precision workmanship with a focus on safety and compliance. We understand the importance of preserving Fort Worth's architectural heritage while implementing energy-efficient solutions for today's living needs.",
+        "localContext": "Fort Worth features Craftsman bungalows near downtown and experiences hot, humid summers that stress electrical systems.",
+        "nearbyAreas": [
+          "North Richland Hills",
+          "Keller",
+          "Benbrook"
+        ]
+      },
+      {
+        "city": "Plano",
+        "slug": "plano-tx",
+        "state": "TX",
+        "content": "Apex Electrical is your trusted partner for electrical services in Plano's well-established neighborhoods. The city's 1980s-90s subdivisions often require electrical updates to accommodate today's power demands for smart homes and modern appliances. Our team specializes in upgrading older electrical systems while maintaining the integrity of these classic homes. We also help Plano residents prepare their electrical systems for the intense Texas summers when air conditioning units run continuously.\n\nFrom ceiling fan installations to complete home rewiring, our licensed electricians provide reliable service for Plano homeowners. We understand the specific electrical needs of mature subdivisions, including outdated wiring, insufficient outlets, and aging electrical panels. Apex Electrical offers energy-efficient solutions that enhance safety while reducing utility costs in these established communities.",
+        "localContext": "Plano is characterized by 1980s-90s established subdivisions and experiences hot, humid summers that test electrical systems.",
+        "nearbyAreas": [
+          "Richardson",
+          "Allen",
+          "Murphy"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "slug": "frisco-tx",
+        "state": "TX",
+        "content": "Apex Electrical delivers top-tier electrical services for Frisco's newer construction homes built between the 2000s-2020s. These modern properties often feature advanced smart home technology that requires specialized electrical expertise. Our team stays current with the latest electrical codes and technologies to properly service Frisco's contemporary homes. We help homeowners optimize their electrical systems for both performance and energy efficiency during North Texas' hot, humid summers.\n\nWhether you need EV charger installation, whole-home surge protection, or lighting upgrades, Apex Electrical has the expertise Frisco homeowners trust. We understand the electrical demands of today's technology-filled homes and can troubleshoot complex systems with precision. Our services help maintain the value and functionality of your investment in this fast-growing community.",
+        "localContext": "Frisco consists mostly of newer construction from the 2000s-2020s and experiences the same hot, humid summers as the rest of North Texas.",
+        "nearbyAreas": [
+          "Little Elm",
+          "The Colony",
+          "Prosper"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "slug": "mckinney-tx",
+        "state": "TX",
+        "content": "Apex Electrical provides expert electrical services for McKinney's blend of historic downtown homes and modern developments. The city's charming older properties often need careful electrical upgrades that preserve their character while improving safety. Our team is experienced in working with the unique wiring challenges found in McKinney's historic districts. We also help newer homes in the area prepare their electrical systems for the region's sweltering summer heat.\n\nFrom knob-and-tube wiring replacements to smart home automation installations, we offer solutions tailored to McKinney's diverse housing stock. Apex Electrical understands the importance of maintaining the integrity of historic homes while bringing their electrical systems up to modern standards. Our energy-efficient solutions help reduce cooling costs during McKinney's long, hot summers.",
+        "localContext": "McKinney features historic downtown homes alongside newer developments and experiences the hot, humid summers typical of North Texas.",
+        "nearbyAreas": [
+          "Melissa",
+          "Princeton",
+          "Lowry Crossing"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tx",
+        "state": "TX",
+        "content": "Apex Electrical serves Arlington's numerous 1960s-70s ranch homes with specialized electrical solutions for mid-century properties. These classic homes often require updates to their original electrical systems to safely power today's appliances and electronics. Our team is experienced in working with the aluminum wiring and outdated panels common in Arlington's ranch-style neighborhoods. We also help homeowners prepare their electrical systems for the increased cooling demands during Texas' intense summer heat.\n\nFrom GFCI outlet installations to service panel upgrades, Apex Electrical provides reliable solutions for Arlington's mid-century homes. We understand the specific electrical challenges posed by these properties and offer solutions that maintain their character while improving safety and functionality. Our energy-efficient upgrades help reduce the strain on electrical systems during Arlington's long cooling season.",
+        "localContext": "Arlington is known for its 1960s-70s ranch homes and experiences the same hot, humid summers as the rest of the DFW metroplex.",
+        "nearbyAreas": [
+          "Grand Prairie",
+          "Mansfield",
+          "Bedford"
+        ]
+      },
+      {
+        "city": "Dallas",
+        "slug": "dallas-tx",
+        "state": "TX",
+        "content": "Apex Electrical delivers comprehensive electrical services throughout Dallas, addressing the city's diverse range of residential electrical needs. From historic homes in Highland Park to modern high-rises downtown, our team has the expertise to handle any electrical challenge. Dallas' extreme summer heat places significant demands on electrical systems, particularly air conditioning units that run nearly continuously for months. We help homeowners upgrade and maintain their electrical infrastructure to handle these demands safely and efficiently.\n\nWhether you need lighting installation in a luxury home or a complete rewiring in an older property, Apex Electrical provides reliable, code-compliant service. We stay current with Dallas' specific electrical codes and requirements, ensuring all work meets local regulations. Our energy-saving solutions help offset the high cooling costs during Dallas' long, hot summers while maintaining optimal electrical safety.",
+        "localContext": "Dallas features diverse architecture from historic homes to modern builds, all subject to intense summer heat that strains electrical systems.",
+        "nearbyAreas": [
+          "Garland",
+          "Mesquite",
+          "Irving"
+        ]
+      },
+      {
+        "city": "Richardson",
+        "slug": "richardson-tx",
+        "state": "TX",
+        "content": "Apex Electrical provides expert electrical services for Richardson's mix of mid-century homes and modern developments. Many homes in this established community were built during the 1960s-70s boom and now need electrical upgrades to meet contemporary power demands. Our team specializes in updating these older systems while maintaining the homes' original character. We also help Richardson residents prepare their electrical systems for the area's hot, humid summers when air conditioning runs continuously.\n\nFrom service panel upgrades to whole-home surge protection, Apex Electrical offers solutions tailored to Richardson's housing stock. We understand the specific challenges posed by the city's mix of older wiring and modern technology needs. Our energy-efficient solutions help reduce cooling costs while maintaining reliable electrical service throughout Richardson's long summer season.",
+        "localContext": "Richardson features many mid-century homes alongside newer developments, all subject to North Texas' hot, humid summers.",
+        "nearbyAreas": [
+          "Plano",
+          "Garland",
+          "Murphy"
+        ]
+      },
+      {
+        "city": "Garland",
+        "slug": "garland-tx",
+        "state": "TX",
+        "content": "Apex Electrical serves Garland's diverse residential areas with reliable electrical solutions for homes of all ages. The city's mix of 1950s-70s properties and newer constructions presents unique electrical challenges our team is specially equipped to handle. We help Garland homeowners upgrade outdated wiring and panels to safely power modern appliances and electronics. Our services are particularly valuable during the region's sweltering summers when electrical systems are pushed to their limits.\n\nFrom ceiling fan installations to complete home rewiring, Apex Electrical provides dependable service throughout Garland. We understand the specific electrical needs of the city's varied neighborhoods and offer solutions that improve safety while maintaining home values. Our energy-efficient upgrades help reduce the strain on electrical systems during Garland's long cooling season while lowering utility costs.",
+        "localContext": "Garland features a mix of mid-century and newer homes, all requiring reliable electrical systems to handle North Texas' extreme summer heat.",
+        "nearbyAreas": [
+          "Sachse",
+          "Rowlett",
+          "Richardson"
+        ]
+      },
+      {
+        "city": "Irving",
+        "slug": "irving-tx",
+        "state": "TX",
+        "content": "Apex Electrical delivers professional electrical services for Irving's blend of established neighborhoods and modern developments. The city's older homes, particularly those from the 1960s-70s, often need electrical updates to meet today's power demands safely. Our team specializes in upgrading these systems while minimizing disruption to the home's structure. We also help Irving residents prepare their electrical systems for the intense Texas summers when cooling systems operate nearly continuously.\n\nFrom GFCI outlet installations to service panel upgrades, Apex Electrical provides reliable solutions for Irving homeowners. We understand the specific challenges posed by the city's mix of older and newer properties and offer tailored solutions for each. Our energy-efficient upgrades help reduce cooling costs while maintaining optimal electrical safety throughout Irving's long summer season.",
+        "localContext": "Irving features a combination of established neighborhoods and newer developments, all subject to the DFW metroplex's hot, humid summers.",
+        "nearbyAreas": [
+          "Coppell",
+          "Euless",
+          "Grand Prairie"
+        ]
+      },
+      {
+        "city": "Lewisville",
+        "slug": "lewisville-tx",
+        "state": "TX",
+        "content": "Apex Electrical provides expert electrical services for Lewisville's mix of lakefront properties and established neighborhoods. The city's diverse housing stock ranges from vintage homes to modern constructions, each with unique electrical requirements. Our team is experienced in working with the specific challenges presented by Lewisville's varied architecture. We help homeowners prepare their electrical systems for the region's extreme summer heat when air conditioning systems operate at maximum capacity for months.\n\nFrom outdoor lighting installations to complete home rewiring, Apex Electrical offers reliable solutions for Lewisville residents. We understand the importance of maintaining safe, efficient electrical systems in both older and newer homes. Our energy-saving upgrades help reduce the strain on electrical systems during Lewisville's long cooling season while lowering utility costs.",
+        "localContext": "Lewisville features a mix of lakefront properties and established neighborhoods, all needing robust electrical systems for North Texas summers.",
+        "nearbyAreas": [
+          "Flower Mound",
+          "Highland Village",
+          "The Colony"
+        ]
+      },
+      {
+        "city": "Mesquite",
+        "slug": "mesquite-tx",
+        "state": "TX",
+        "content": "Apex Electrical serves Mesquite's neighborhoods with reliable electrical solutions for homes of all ages. The city's mix of mid-century properties and newer developments presents unique electrical challenges our team is specially equipped to handle. We help Mesquite homeowners upgrade outdated wiring and panels to safely accommodate modern power demands. Our services are particularly valuable during the region's intense summers when electrical systems are pushed to their limits by continuous air conditioning use.\n\nFrom ceiling fan installations to whole-home surge protection, Apex Electrical provides dependable service throughout Mesquite. We understand the specific electrical needs of the city's varied housing stock and offer solutions that improve safety while maintaining home values. Our energy-efficient upgrades help reduce the strain on electrical systems during Mesquite's long cooling season while lowering utility costs.",
+        "localContext": "Mesquite features a combination of mid-century and newer homes, all requiring reliable electrical systems to handle North Texas' extreme summer heat.",
+        "nearbyAreas": [
+          "Balch Springs",
+          "Seagoville",
+          "Forney"
+        ]
+      },
+      {
+        "city": "Grand Prairie",
+        "slug": "grand-prairie-tx",
+        "state": "TX",
+        "content": "Apex Electrical delivers professional electrical services for Grand Prairie's diverse residential areas. The city's mix of older homes and modern constructions presents unique electrical challenges our team is specially equipped to handle. We help Grand Prairie homeowners upgrade outdated wiring and service panels to meet today's power demands safely. Our services are particularly valuable during the region's sweltering summers when electrical systems operate at peak capacity for months.\n\nFrom lighting installations to complete home rewiring, Apex Electrical provides reliable service throughout Grand Prairie. We understand the specific electrical needs of the city's varied neighborhoods and offer solutions that improve safety while maintaining home values. Our energy-efficient upgrades help reduce the strain on electrical systems during Grand Prairie's long cooling season while lowering utility costs.",
+        "localContext": "Grand Prairie features a mix of older and newer homes, all needing robust electrical systems to handle North Texas' extreme summer heat.",
+        "nearbyAreas": [
+          "Arlington",
+          "Irving",
+          "Cedar Hill"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "panel-upgrades": "/images/service-panel-upgrades.webp",
+      "ceiling-fan-installation": "/images/service-ceiling-fan-installation.webp",
+      "outdoor-lighting": "/images/service-outdoor-lighting.webp",
+      "generator-installation": "/images/service-generator-installation.webp",
+      "emergency-electrical-repairs": "/images/service-emergency-electrical-repairs.webp"
+    },
+    "servicesResponsive": {
+      "panel-upgrades": {
+        "src": "/images/service-panel-upgrades.webp",
+        "srcset": "/images/service-panel-upgrades-400w.webp 400w, /images/service-panel-upgrades-800w.webp 800w, /images/service-panel-upgrades-1200w.webp 1200w, /images/service-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ceiling-fan-installation": {
+        "src": "/images/service-ceiling-fan-installation.webp",
+        "srcset": "/images/service-ceiling-fan-installation-400w.webp 400w, /images/service-ceiling-fan-installation-800w.webp 800w, /images/service-ceiling-fan-installation-1200w.webp 1200w, /images/service-ceiling-fan-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-lighting": {
+        "src": "/images/service-outdoor-lighting.webp",
+        "srcset": "/images/service-outdoor-lighting-400w.webp 400w, /images/service-outdoor-lighting-800w.webp 800w, /images/service-outdoor-lighting-1200w.webp 1200w, /images/service-outdoor-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-electrical-repairs": {
+        "src": "/images/service-emergency-electrical-repairs.webp",
+        "srcset": "/images/service-emergency-electrical-repairs-400w.webp 400w, /images/service-emergency-electrical-repairs-800w.webp 800w, /images/service-emergency-electrical-repairs-1200w.webp 1200w, /images/service-emergency-electrical-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
